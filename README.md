@@ -25,9 +25,9 @@ Phân loại bệnh lá cây Cà phê bằng mô hình học sâu CNN
   - Cà phê khỏe mạnh: Hình ảnh lá cà phê khỏe mạnh, không có dấu hiệu bệnh tật.
   - Bệnh rỉ sắt trên cây cà phê: Hình ảnh lá cà phê bị nhiễm bệnh rỉ sắt do một loại nấm gây ra.
   - Nhện đỏ cà phê: Hình ảnh lá cà phê bị nhện đỏ cà phê xâm nhập, đây là loài côn trùng nhỏ có thể gây hại cho lá cà phê.
-**Tỷ lệ chia dữ liệu**:
-- 80% cho tập huấn luyện (Train)
-- 20% cho tập kiểm định (Validation)
+- **Tỷ lệ chia dữ liệu**:
+  - 80% cho tập huấn luyện (Train)
+  - 20% cho tập kiểm định (Validation)
 
 ##  Kiến trúc mô hình
 
