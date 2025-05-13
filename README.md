@@ -20,7 +20,7 @@ Phân loại bệnh lá cây Cà phê bằng mô hình học sâu CNN
     - coffee__healthy/
     - coffee__rust/
     - coffee__red_spider_mite/
-
+- Từ tiền xử lý dữ liệu → Huấn luyện → Đánh giá → Dự đoán ảnh thực tế.
 - **Gồm 3 lớp bệnh**:
   - Cà phê khỏe mạnh: Hình ảnh lá cà phê khỏe mạnh, không có dấu hiệu bệnh tật.
   - Bệnh rỉ sắt trên cây cà phê: Hình ảnh lá cà phê bị nhiễm bệnh rỉ sắt do một loại nấm gây ra.
