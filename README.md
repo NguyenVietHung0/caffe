@@ -47,18 +47,18 @@ Huấn luyện:
 
 - Loss: CategoricalCrossentropy
 
-- Epochs: 20
+- Epochs: 30
 
 ##  Kết quả huấn luyện
 
 - Accuracy:
-  Tập huấn luyện: Đạt khoảng 67% vào epoch cuối (tăng đều từ khoảng 55% ở epoch đầu).
-  Tập validation: Dao động quanh 65–70%, với xu hướng tăng nhẹ nhưng không ổn định.
+  Tập huấn luyện: Bắt đầu từ ~51% và tăng đều lên ~77% ở epoch cuối.
+  Tập validation: Dao động quanh 68–77%, với xu hướng tăng nhẹ nhưng không ổn định.
 - Loss:
-  Tập huấn luyện: Giảm mạnh từ 1.1 xuống khoảng 0.65 sau 10 epoch, cho thấy mô hình học tốt trên tập huấn luyện.
-  Tập validation: Giảm từ 0.9 xuống khoảng 0.65, nhưng có dao động lớn trong các epoch đầu, sau đó ổn định hơn.
+  Tập huấn luyện: Giảm mạnh từ 1.15 xuống khoảng 0.57 cho thấy mô hình học tốt trên tập huấn luyện.
+  Tập validation: Giảm từ 0.78 xuống khoảng 0.58, nhưng có dao động lớn trong các epoch đầu, sau đó ổn định hơn.
 - Loss theo epoch: Đường màu xanh (train loss) giảm đều, trong khi đường màu cam (val loss) dao động nhưng có xu hướng giảm.
-- Accuracy theo epoch: Đường màu xanh (train accuracy) tăng đều, trong khi đường màu cam (val accuracy) dao động quanh 65–70%.
+- Accuracy theo epoch: Đường màu xanh (train accuracy) tăng đều, trong khi đường màu cam (val accuracy) dao động quanh 75–77%.
 ##  Dự đoán ảnh thực tế
 - Tải ảnh và thay đổi kích thước thành 224x224 pixels.
 - Chuẩn hóa giá trị pixel (chia cho 255 để đưa về khoảng [0, 1]).
